@@ -1,0 +1,31 @@
+img {
+    float: left;
+    width: 30%;
+    padding: 1%;
+}
+body {
+    background-color: whitesmoke;
+}
+.header {
+    background-color: white;
+}
+.main {
+    background-color: white;
+}
+
+.footerColor {
+    background-color: #4aaaa4;
+    height: 5px;
+}
+h1 {
+    background-color: #4aaaa4;
+    color: white;
+}
+.myFooter {
+    position: absolute;
+    bottom: 0;
+    background-color: darkgray;
+}
+.topMargin {
+    margin-top: 5%;
+}
