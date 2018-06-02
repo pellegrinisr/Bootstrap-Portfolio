@@ -21,6 +21,7 @@ h1 {
     background-color: #4aaaa4;
     color: white;
     margin-bottom: 0;
+    text-align: center;
 }
 .myFooter {
     position: absolute;   
@@ -40,9 +41,8 @@ p {
     color: #777777;
 }
 /*to get footer to displaay correctly on mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .myFooter {
-        position: relative;
-        
+        position: relative;  
     }
-}
+} 
