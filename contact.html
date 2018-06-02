@@ -3,41 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Pellegrini</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index1.css">
+
 </head>
 
 <body>
-    <div class="header">
-        <h1>Stephen Pellegrini</h1>
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li>|</li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li>|</li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+ <!--code for header--> 
+    <div class="row header">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9 text-center">
+                    <h1>Stephen Pellegrini</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-9">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index1.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>   
         </div>
     </div>
-    <div class="main">
-        <div class="content">
-            <h2>Contact</h2>
-            <hr>
-            <form>
-                Name:<br>
-                <input type="text" class="input" name="nameBox"><br>
-                Email:<br>
-                <input type="text" class="input" name="emailBox"><br>
-                Message:<br>
-                <textarea name="messageBox" cols="50" rows="10"></textarea>
-            </form>
+    <div class="container">
+        <!--code for main content area-->
+        <div class="row topMargin">
+            <div class="col-sm-9 main">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2>Contact</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                           
+                            <div class="form-group">
+                                <label for="messageBox">Example textarea</label>
+                                <textarea class="form-control" id="messageBox" rows="7"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-sm-3">
+
+            </div>
         </div>
     </div>
-    <div class="footerColor"></div>
-    <div class="footer">
-        <p>Copyright &copy;</p>
+    <!--code for the footer-->   
+    <div class="container-fluid myFooter">
+        <div class="row footerColor">
+            <div class="col-sm-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <span class="text-muted">Copyright &copy;</span>
+            </div>
+        </div>  
     </div>
 </body>
 </HTML>

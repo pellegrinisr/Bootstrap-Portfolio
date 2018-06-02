@@ -20,6 +20,7 @@ body {
 h1 {
     background-color: #4aaaa4;
     color: white;
+    margin-bottom: 0;
 }
 .myFooter {
     position: absolute;
@@ -28,4 +29,7 @@ h1 {
 }
 .topMargin {
     margin-top: 5%;
+}
+div ul li a{
+    color: grey;
 }
