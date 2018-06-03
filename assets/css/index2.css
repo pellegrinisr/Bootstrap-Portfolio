@@ -11,6 +11,9 @@ body {
 }
 .main {
     background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 }
 
 .footerColor {
@@ -22,11 +25,14 @@ h1 {
     color: white;
     margin-bottom: 0;
     text-align: center;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
 }
 .myFooter {
     position: absolute;   
     bottom: 0;
-    background-color: darkgray;
+    background-color: #666666;
 }
 .topMargin {
     margin-top: 5%;

@@ -4,3 +4,7 @@ label {
 .form-control {
     color: #777777;
 }
+.btn-primary {
+    margin-bottom: 2%;
+    background-color: #4aaaa4;
+}
